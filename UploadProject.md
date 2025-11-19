@@ -3,7 +3,7 @@
 ```bash
 git init
 ```
-# 2. 全局配置
+# 2. 全局配置22
 ```bash
   git config --global user.email "you@example.com"
   git config --global user.name "Your Name"

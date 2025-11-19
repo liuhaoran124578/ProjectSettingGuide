@@ -3,21 +3,26 @@
 ```bash
 git init
 ```
+# 2. 全局配置
+```bash
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+```
 
-# 2. 将文件添加到暂存区
+# 3. 将文件添加到暂存区
 这一步是告诉 Git：“把你看到的这些文件（除了 .gitignore 里忽略的）准备好，我要存起来了。”
 ```bash
 git add .
 ```
 *(注意：`add` 后面有个空格和一个点 `.`，代表当前目录下的所有文件)*
 
-# 3. 提交文件到本地仓库
+# 4. 提交文件到本地仓库
 这一步相当于给当前的代码拍一张快照，并写下备注。
 ```bash
 git commit -m "第一次提交我的项目"
 ```
 
-# 4. 关联 GitHub 远程仓库
+# 5. 关联 GitHub 远程仓库
 *   首先，去 [GitHub 官网](https://github.com) 登录你的账户。
 *   点击右上角的 **+** 号 -> **New repository** (新建仓库)。
 *   起个名字，点击 **Create repository**。
@@ -29,7 +34,7 @@ git remote add origin https://github.com/你的用户名/你的项目名.git
 ```
 *(请将 URL 替换为你刚才复制的链接)*
 
-# 5. 推送代码到 GitHub
+# 6. 推送代码到 GitHub
 这是最后一步，把本地的代码上传到云端。
 ```bash
 git branch -M main

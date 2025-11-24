@@ -6,3 +6,4 @@
 - [PasswordFreeLogin.md](./PasswordFreeLogin.md)
 - [UploadProject.md](./UploadProject.md)
 - [TmuxUse.md](./TmuxUse.md)
+- [VscodeToKaggle.pdf](./VscodeToKaggle.pdf)
